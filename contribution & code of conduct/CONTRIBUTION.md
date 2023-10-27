@@ -38,6 +38,6 @@ In case of finding a bug, please create an issue under the repository's [issues]
 ___
 ## Notes
 
-For larger changes that have a significant impact on the code base, it is always good practice to discuss your plans as an issue first.
+For larger changes that have a significant impact on the code base, it's always good practice to discuss your plans as an issue first.
 ___
 **Thank you for contirbuting to Hacktoberfest-Tulip and happy hacking!**
