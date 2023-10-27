@@ -4,7 +4,10 @@ import SlideAnimationType from "../../Types";
 const SlideDown = (props: SlideAnimationType) => {
 
     return (
-        <div style={{ overflow: "hidden" }}>
+        <div style={{
+            overflowX: "hidden",
+            overflowY: "visible"
+        }}>
             <motion.div
                 variants={{
                     initial: { opacity: 0, y: -100 },

@@ -4,7 +4,10 @@ import SlideAnimationType from "../../Types";
 const SlideRight = (props: SlideAnimationType) => {
 
     return (
-        <div style={{overflow:"hidden"}}>
+        <div style={{
+            overflowY: "hidden",
+            overflowX: "visible"
+        }}>
             <motion.div
                 variants={{
                     initial: { opacity: 0, x: -100 },

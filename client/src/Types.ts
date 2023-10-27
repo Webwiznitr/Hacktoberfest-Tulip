@@ -5,3 +5,9 @@ export default interface SlideAnimationType {
     delay?: number,
     duration?: number
 }
+
+export default interface FadeAnimationType {
+    children?: ReactNode,
+    delay?: number,
+    duration?: number
+}
