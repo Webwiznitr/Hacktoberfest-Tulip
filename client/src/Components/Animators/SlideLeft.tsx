@@ -10,7 +10,7 @@ const SlideLeft = (props: SlideAnimationType) => {
         }}>
             <motion.div
                 variants={{
-                    initial: { opacity: 0, x: 100 },
+                    initial: { opacity: 0, x: 1000 },
                     final: { opacity: 1, x: 0 }
                 }}
                 initial="initial"
