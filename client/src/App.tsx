@@ -1,13 +1,10 @@
 import React from 'react';
 import './CSS/index.scss'
-import Login from './Pages/Login';
-import Home from './Pages/Home';
-import SignUp from './Pages/SignUp';
 
 function App() {
   return (
     <div className="App">
-      {/* <div className="App">
+      <div className="App">
         <header className="App-header">
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
@@ -21,10 +18,7 @@ function App() {
             Learn React
           </a>
         </header>
-      </div> */}
-
-      {/* <Home /> */}
-      <SignUp />
+      </div>
     </div>
   );
 }
