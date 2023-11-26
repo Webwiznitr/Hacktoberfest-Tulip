@@ -2,7 +2,8 @@ import React from 'react';
 import './CSS/index.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
-import Navbar from './components/Navbar'; // Adjust this import path as per your project structure
+import Navbar from './Components/Animators/Navbar';
+ // Adjust this import path as per your project structure
 
 function App() {
   return (
