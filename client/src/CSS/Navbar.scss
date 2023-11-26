@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333; // Change color as per your theme
+    color: white;
+
+    .navbar-brand {
+        font-size: 1.5rem;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        list-style: none;
+
+        .nav-item {
+            margin-left: 20px;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
